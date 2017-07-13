@@ -1,0 +1,22 @@
+
+.btn  {	
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	color: #000;
+}
+
+.jumbotron {
+  color:black;
+  background-attachment:fixed;
+  background-position: center;	
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height:700px;
+  margin-top:0px;
+  margin-bottom:8px;
+}
+
