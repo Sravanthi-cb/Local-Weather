@@ -6,17 +6,16 @@
     cursor:pointer;
     overflow: hidden;
     outline:none;
-	color: #000;
+    color: #fff;
 }
 
 .jumbotron {
-  color:black;
-  background-attachment:fixed;
-  background-position: center;	
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;	   
+  color:#fff;
   min-height:700px;
-  margin-top:0px;
+  margin-top:20px;
   margin-bottom:8px;
+  overflow: hidden;
 }
 
