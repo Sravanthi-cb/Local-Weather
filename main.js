@@ -41,40 +41,40 @@ $(document).ready(function(){
 	
 function changeWeatherImg(weatherID){
   if(weatherID <= 299){ 
-    $('.jumbotron').css('background', 'url(images/thunderstorm.jpg)');
+    $('.jumbotron').css('background-image', 'url(images/thunderstorm.jpg)');
     return;
   }
   if(weatherID <= 599){ 
-    $('.jumbotron').css('background', 'url(images/drizzle.jpg)');
+    $('.jumbotron').css('background-image', 'url(images/drizzle.jpg)');
     return
   }
   if(weatherID <= 699){ 
-    $('.jumbotron').css('background', 'url(images/snow.jpg)');
+    $('.jumbotron').css('background-image', 'url(images/snow.jpg)');
     $('#snowfall').css;
     return
   }
   if(weatherID <= 799){ 
-    $('.jumbotron').css('background', 'url(images/atmosphere.jpg');
+    $('.jumbotron').css('background-image', 'url(images/atmosphere.jpg');
     return
   }
   if(weatherID == 800){ 
-    $('.jumbotron').css('background', 'url(images/clearsky.jpg)');
+    $('.jumbotron').css('background-image', 'url(images/clearsky.jpg)');
     return
   }
   if(weatherID <= 899){ 
-    $('.jumbotron').css('background', 'url(images/clouds.jpg)');
+    $('.jumbotron').css('background-image', 'url(images/clouds.jpg)');
     return
   }
   if(weatherID <= 906){ 
-    $('.jumbotron').css('background', 'url(images/storm.jpg)');
+    $('.jumbotron').css('background-image', 'url(images/storm.jpg)');
     return
   }
   if(weatherID <= 955){ 
-    $('.jumbotron').css('background', 'url(images/breeze.jpg)');
+    $('.jumbotron').css('background-image', 'url(images/breeze.jpg)');
     return
   }
   if(weatherID <= 962){ 
-    $('.jumbotron').css('background', 'url(images/highwinds.jpg)');
+    $('.jumbotron').css('background-image', 'url(images/highwinds.jpg)');
     return
   }
 } 
